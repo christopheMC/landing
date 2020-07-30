@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 220px;
+  height: 300px;
+  box-shadow: 0 5px 10px black;
+}
+
+.card img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h3,
+.card p {
+  padding-left: 15px;
+}
